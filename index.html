@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title> Conversión de sistemas numericos</title>
+    <meta charset="UTF-8">
+    <script src="codigo.js"></script>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <style>
+        body{
+        color: rgb(1, 1, 1);
+        background-color: rgba(5, 218, 255, 0.371);
+        text-align: center;
+    }
+    </style>
+    <h1> CONVERSOR DE SISTEMAS</h1>
+    <style>hi{color: rgb(253, 0, 0);background-color: rgb(0, 0, 0); font-size:50px ;}</style>
+    <br> 
+    <p> 
+        ESTE PROGRAMA CONVIERTE CARACTER A BINARIO Y BINARIO A CARACTER
+    </p>
+
+    <h3> INGRESE CARACTER</h3>
+    <style>h3{color: rgb(255, 0, 0);background-color: rgb(0, 0, 0);}</style>
+    <input type="text" id="binar" autocomplete="off" placeholder="Carater">
+    <p id="Respuesta" style="border: 1px solid black; height: 15px;" ></p>
+    <input id="BotonMostrarBinario" type="submit" onclick="ejecutar('texto')" value="Calcular binario">
+    <style>
+        #BotonMostrarBinario{
+            color: rgb(255, 0, 0);
+            background-color: black;
+            border-radius: 15px
+        }
+    </style>
+    <input id="BtnBorrar" type="submit" onclick="borrar()" value="Borrar">
+    <style>
+        #BtnBorrar{
+            color: rgb(255, 0, 0);
+            background-color: black;
+            border-radius: 15px;
+        }
+        h1{
+        color: rgb(255, 0, 0);
+        background-color: black;
+        border-radius: 15px;
+    }
+        h3{
+        border-radius: 15px;
+        margin: 20px 20px;
+    }
+        #binar{
+        border-radius: 15px;
+    }
+        #Respuesta{
+        border-radius: 15px;
+    }
+        #bin{
+        border-radius: 15px;
+    }
+        #res{
+        border-radius: 15px;
+    }
+    </style>
+    
+    <h3>INGRESE BINARIO</h3>
+    <input type="text" autocomplete="off" id="bin" placeholder="Binario">
+    <p id="res" style="border: 1px solid rgb(0, 0, 0); height: 15px;"></p>
+    <br>
+    <input id="BtnMostrarCaracter" type="submit" onclick="ejecutar2()" value="Calcular Caracter">
+    <style>
+        #BtnMostrarCaracter{
+        background-color: rgb(0, 0, 0);
+        border-radius: 8px; 
+        color: rgb(255, 0, 0); 
+    }
+    </style>
+    <input id="BtnBorrar2" type="submit" onclick="borrarCar()" value="Borrar">
+    <style>
+        #BtnBorrar2{
+        background-color: rgb(0, 0, 0);
+        border-radius: 8px; 
+        color: rgb(255, 0, 0); 
+    }
+    </style>
+</body>
+</html>
+
